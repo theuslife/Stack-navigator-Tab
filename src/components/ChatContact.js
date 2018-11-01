@@ -4,7 +4,7 @@ import { View, StyleSheet, Text } from 'react-native';
 export class ChatContact extends Component {
 
     static navigationOptions = ({ navigation }) => ({
-        header: null,
+        title: 'Chat'
     });
 
     render(){
